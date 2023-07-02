@@ -7,10 +7,10 @@
 
   /*========== Colors ==========*/
   /* Color mode HSL(hue, saturation, lightness) */
-  --first-color: hsl(350, 98%, 64%);
+  --first-color:  #0ef; /* hsl(350, 98%, 64%); */
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 77%);
-  --body-color: hsl(0, 0%, 6%);
+  --body-color: #1f242d;/*hsl(0, 0%, 6%);*/
   --container-color: hsl(0, 0%, 10%);
   --border-color: hsla(0, 0%, 100%, 0.2);
 
@@ -19,7 +19,9 @@
   --body-font: 'Poppins', sans-serif;
   --second-font: 'Montserrat', sans-serif;
 
-  --big-font-size: clamp(2rem, 0.9706rem + 4.7059vw, 4.5rem);
+  /* que fait la fonction clamp ? */
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/clamp() */
+  --big-font-size: clamp(1rem, 0.9706rem + 3.7059vw, 3.5rem);
   --h1-font-size: clamp(1.75rem, 0.9265rem + 3.7647vw, 3.75rem);
   --h2-font-size: 1.75rem;
   --h3-font-size: 1.5rem;
@@ -180,7 +182,7 @@ input {
 }
 
 .nav {
-  height: calc(var(--header-height) + 1.5rem);
+  height: calc(var(--header-height) + 2rem);
   align-items: center;
   justify-content: space-between;
   column-gap: 3.5rem;
