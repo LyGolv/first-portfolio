@@ -158,7 +158,7 @@ contactForm.addEventListener('submit', sendEmail);
 
 
 var typed = new Typed(".multiple-text", {
-  strings: ["Web Developer", "Web Designer", "Freelancer"],
+  strings: ["Software Engineer", "Web Developper", "Work-study student"],
   typeSpeed: 50,
   backSpeed: 50,
   backDelay: 1000,
